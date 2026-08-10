@@ -26,9 +26,7 @@ services:
   # ASP.NET Core Auth API
   # ─────────────────────────────────────────────
   api:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: tdat015/test-deploy:1.0
     container_name: auth-api
     restart: unless-stopped
     ports:

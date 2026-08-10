@@ -1,0 +1,6 @@
+@test_deploy_HostAddress = http://localhost:5283
+
+GET {{test_deploy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

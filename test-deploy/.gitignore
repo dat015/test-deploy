@@ -1,0 +1,30 @@
+# Build artifacts
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# IDE
+.idea/
+*.swp
+
+# ─────────────────────────────────────────────
+# 🔒 SECRETS - KHÔNG BAO GIỜ COMMIT
+# ─────────────────────────────────────────────
+.env
+*.env
+!.env.example
+
+# ─────────────────────────────────────────────
+# OS
+# ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
